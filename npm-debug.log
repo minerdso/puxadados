@@ -1,0 +1,987 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @adiwajshing/baileys
+20 silly mapToRegistry name @adiwajshing/baileys
+21 silly mapToRegistry scope (from package name) @adiwajshing
+22 verbose mapToRegistry no registry URL found in name for scope @adiwajshing
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@adiwajshing%2fbaileys
+26 silly fetchNamedPackageData @adiwajshing/keyed-db
+27 silly mapToRegistry name @adiwajshing/keyed-db
+28 silly mapToRegistry scope (from package name) @adiwajshing
+29 verbose mapToRegistry no registry URL found in name for scope @adiwajshing
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@adiwajshing%2fkeyed-db
+33 silly fetchNamedPackageData @cemalgnlts/mailjs
+34 silly mapToRegistry name @cemalgnlts/mailjs
+35 silly mapToRegistry scope (from package name) @cemalgnlts
+36 verbose mapToRegistry no registry URL found in name for scope @cemalgnlts
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@cemalgnlts%2fmailjs
+40 silly fetchNamedPackageData @gonetone/get-youtube-id-by-url
+41 silly mapToRegistry name @gonetone/get-youtube-id-by-url
+42 silly mapToRegistry scope (from package name) @gonetone
+43 verbose mapToRegistry no registry URL found in name for scope @gonetone
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@gonetone%2fget-youtube-id-by-url
+47 silly fetchNamedPackageData @rearguard/is-email
+48 silly mapToRegistry name @rearguard/is-email
+49 silly mapToRegistry scope (from package name) @rearguard
+50 verbose mapToRegistry no registry URL found in name for scope @rearguard
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@rearguard%2fis-email
+54 silly fetchNamedPackageData async
+55 silly mapToRegistry name async
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/async
+59 silly fetchNamedPackageData awesome-phonenumber
+60 silly mapToRegistry name awesome-phonenumber
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/awesome-phonenumber
+64 silly fetchNamedPackageData axios
+65 silly mapToRegistry name axios
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/axios
+69 silly fetchNamedPackageData base64-img
+70 silly mapToRegistry name base64-img
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/base64-img
+74 silly fetchNamedPackageData bing-translate-api
+75 silly mapToRegistry name bing-translate-api
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/bing-translate-api
+79 silly fetchNamedPackageData cfonts
+80 silly mapToRegistry name cfonts
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/cfonts
+84 silly fetchNamedPackageData chalk
+85 silly mapToRegistry name chalk
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/chalk
+89 silly fetchNamedPackageData cheerio
+90 silly mapToRegistry name cheerio
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+94 silly fetchNamedPackageData child_process
+95 silly mapToRegistry name child_process
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/child_process
+99 silly fetchNamedPackageData crypto
+100 silly mapToRegistry name crypto
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/crypto
+104 silly fetchNamedPackageData email-validator
+105 silly mapToRegistry name email-validator
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/email-validator
+109 silly fetchNamedPackageData express
+110 silly mapToRegistry name express
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/express
+114 silly fetchNamedPackageData fetch
+115 silly mapToRegistry name fetch
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/fetch
+119 silly fetchNamedPackageData file-type
+120 silly mapToRegistry name file-type
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry uri https://registry.npmjs.org/file-type
+124 silly fetchNamedPackageData fluent-ffmpeg
+125 silly mapToRegistry name fluent-ffmpeg
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry uri https://registry.npmjs.org/fluent-ffmpeg
+129 silly fetchNamedPackageData fs
+130 silly mapToRegistry name fs
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/fs
+134 silly fetchNamedPackageData fs-extra
+135 silly mapToRegistry name fs-extra
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+139 silly fetchNamedPackageData g-i-s
+140 silly mapToRegistry name g-i-s
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry uri https://registry.npmjs.org/g-i-s
+144 silly fetchNamedPackageData google-it
+145 silly mapToRegistry name google-it
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/google-it
+149 silly fetchNamedPackageData google-translate-api
+150 silly mapToRegistry name google-translate-api
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry uri https://registry.npmjs.org/google-translate-api
+154 silly fetchNamedPackageData got
+155 silly mapToRegistry name got
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry uri https://registry.npmjs.org/got
+159 silly fetchNamedPackageData human-readable
+160 silly mapToRegistry name human-readable
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/human-readable
+164 silly fetchNamedPackageData jimp
+165 silly mapToRegistry name jimp
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry uri https://registry.npmjs.org/jimp
+169 silly fetchNamedPackageData jsdom
+170 silly mapToRegistry name jsdom
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry uri https://registry.npmjs.org/jsdom
+174 silly fetchNamedPackageData lowdb
+175 silly mapToRegistry name lowdb
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry uri https://registry.npmjs.org/lowdb
+179 silly fetchNamedPackageData moment-timezone
+180 silly mapToRegistry name moment-timezone
+181 silly mapToRegistry using default registry
+182 silly mapToRegistry registry https://registry.npmjs.org/
+183 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+184 silly fetchNamedPackageData mongodb
+185 silly mapToRegistry name mongodb
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+189 silly fetchNamedPackageData mongoose
+190 silly mapToRegistry name mongoose
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+194 silly fetchNamedPackageData multistream
+195 silly mapToRegistry name multistream
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry uri https://registry.npmjs.org/multistream
+199 silly fetchNamedPackageData node-base64-image
+200 silly mapToRegistry name node-base64-image
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry uri https://registry.npmjs.org/node-base64-image
+204 silly fetchNamedPackageData node-cron
+205 silly mapToRegistry name node-cron
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/node-cron
+209 silly fetchNamedPackageData node-fetch
+210 silly mapToRegistry name node-fetch
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry uri https://registry.npmjs.org/node-fetch
+214 silly fetchNamedPackageData node-webpmux
+215 silly mapToRegistry name node-webpmux
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry uri https://registry.npmjs.org/node-webpmux
+219 silly fetchNamedPackageData npm
+220 silly mapToRegistry name npm
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry uri https://registry.npmjs.org/npm
+224 silly fetchNamedPackageData os
+225 silly mapToRegistry name os
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/os
+229 silly fetchNamedPackageData path
+230 silly mapToRegistry name path
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry uri https://registry.npmjs.org/path
+234 silly fetchNamedPackageData perf_hooks
+235 silly mapToRegistry name perf_hooks
+236 silly mapToRegistry using default registry
+237 silly mapToRegistry registry https://registry.npmjs.org/
+238 silly mapToRegistry uri https://registry.npmjs.org/perf_hooks
+239 silly fetchNamedPackageData pino
+240 silly mapToRegistry name pino
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npmjs.org/
+243 silly mapToRegistry uri https://registry.npmjs.org/pino
+244 silly fetchNamedPackageData pixbr
+245 silly mapToRegistry name pixbr
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry uri https://registry.npmjs.org/pixbr
+249 silly fetchNamedPackageData qrcode-pix
+250 silly mapToRegistry name qrcode-pix
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry uri https://registry.npmjs.org/qrcode-pix
+254 silly fetchNamedPackageData qrcode-terminal
+255 silly mapToRegistry name qrcode-terminal
+256 silly mapToRegistry using default registry
+257 silly mapToRegistry registry https://registry.npmjs.org/
+258 silly mapToRegistry uri https://registry.npmjs.org/qrcode-terminal
+259 silly fetchNamedPackageData remove.bg
+260 silly mapToRegistry name remove.bg
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry uri https://registry.npmjs.org/remove.bg
+264 silly fetchNamedPackageData request
+265 silly mapToRegistry name request
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry uri https://registry.npmjs.org/request
+269 silly fetchNamedPackageData scrape-primbon
+270 silly mapToRegistry name scrape-primbon
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry uri https://registry.npmjs.org/scrape-primbon
+274 silly fetchNamedPackageData spinnies
+275 silly mapToRegistry name spinnies
+276 silly mapToRegistry using default registry
+277 silly mapToRegistry registry https://registry.npmjs.org/
+278 silly mapToRegistry uri https://registry.npmjs.org/spinnies
+279 silly fetchNamedPackageData translate
+280 silly mapToRegistry name translate
+281 silly mapToRegistry using default registry
+282 silly mapToRegistry registry https://registry.npmjs.org/
+283 silly mapToRegistry uri https://registry.npmjs.org/translate
+284 silly fetchNamedPackageData translate-google
+285 silly mapToRegistry name translate-google
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npmjs.org/
+288 silly mapToRegistry uri https://registry.npmjs.org/translate-google
+289 silly fetchNamedPackageData uberduck-api
+290 silly mapToRegistry name uberduck-api
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry uri https://registry.npmjs.org/uberduck-api
+294 silly fetchNamedPackageData util
+295 silly mapToRegistry name util
+296 silly mapToRegistry using default registry
+297 silly mapToRegistry registry https://registry.npmjs.org/
+298 silly mapToRegistry uri https://registry.npmjs.org/util
+299 silly fetchNamedPackageData uuid
+300 silly mapToRegistry name uuid
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry uri https://registry.npmjs.org/uuid
+304 silly fetchNamedPackageData yargs
+305 silly mapToRegistry name yargs
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry uri https://registry.npmjs.org/yargs
+309 silly fetchNamedPackageData yarn
+310 silly mapToRegistry name yarn
+311 silly mapToRegistry using default registry
+312 silly mapToRegistry registry https://registry.npmjs.org/
+313 silly mapToRegistry uri https://registry.npmjs.org/yarn
+314 silly fetchNamedPackageData yt-channel-info
+315 silly mapToRegistry name yt-channel-info
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/yt-channel-info
+319 silly fetchNamedPackageData yt-search
+320 silly mapToRegistry name yt-search
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry uri https://registry.npmjs.org/yt-search
+324 silly fetchNamedPackageData ytdl-core
+325 silly mapToRegistry name ytdl-core
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry uri https://registry.npmjs.org/ytdl-core
+329 silly fetchOtherPackageData qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz
+330 silly cache add args [ 'qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz',
+330 silly cache add   null ]
+331 verbose cache add spec qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz
+332 verbose request uri https://registry.npmjs.org/@adiwajshing%2fbaileys
+333 verbose request no auth needed
+334 info attempt registry request try #1 at 4:39:57 AM
+335 verbose request id ff8042cc3127aade
+336 http request GET https://registry.npmjs.org/@adiwajshing%2fbaileys
+337 verbose request uri https://registry.npmjs.org/@adiwajshing%2fkeyed-db
+338 verbose request no auth needed
+339 info attempt registry request try #1 at 4:39:57 AM
+340 http request GET https://registry.npmjs.org/@adiwajshing%2fkeyed-db
+341 verbose request uri https://registry.npmjs.org/@cemalgnlts%2fmailjs
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 4:39:57 AM
+344 http request GET https://registry.npmjs.org/@cemalgnlts%2fmailjs
+345 verbose request uri https://registry.npmjs.org/@gonetone%2fget-youtube-id-by-url
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 4:39:57 AM
+348 http request GET https://registry.npmjs.org/@gonetone%2fget-youtube-id-by-url
+349 verbose request uri https://registry.npmjs.org/@rearguard%2fis-email
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 4:39:57 AM
+352 http request GET https://registry.npmjs.org/@rearguard%2fis-email
+353 verbose request uri https://registry.npmjs.org/async
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 4:39:57 AM
+356 http request GET https://registry.npmjs.org/async
+357 verbose request uri https://registry.npmjs.org/awesome-phonenumber
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 4:39:57 AM
+360 http request GET https://registry.npmjs.org/awesome-phonenumber
+361 verbose request uri https://registry.npmjs.org/axios
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 4:39:57 AM
+364 http request GET https://registry.npmjs.org/axios
+365 verbose request uri https://registry.npmjs.org/base64-img
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 4:39:57 AM
+368 http request GET https://registry.npmjs.org/base64-img
+369 verbose request uri https://registry.npmjs.org/bing-translate-api
+370 verbose request no auth needed
+371 info attempt registry request try #1 at 4:39:57 AM
+372 http request GET https://registry.npmjs.org/bing-translate-api
+373 verbose request uri https://registry.npmjs.org/cfonts
+374 verbose request no auth needed
+375 info attempt registry request try #1 at 4:39:57 AM
+376 http request GET https://registry.npmjs.org/cfonts
+377 verbose request uri https://registry.npmjs.org/chalk
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 4:39:57 AM
+380 http request GET https://registry.npmjs.org/chalk
+381 verbose request uri https://registry.npmjs.org/cheerio
+382 verbose request no auth needed
+383 info attempt registry request try #1 at 4:39:57 AM
+384 http request GET https://registry.npmjs.org/cheerio
+385 verbose request uri https://registry.npmjs.org/child_process
+386 verbose request no auth needed
+387 info attempt registry request try #1 at 4:39:57 AM
+388 http request GET https://registry.npmjs.org/child_process
+389 verbose request uri https://registry.npmjs.org/crypto
+390 verbose request no auth needed
+391 info attempt registry request try #1 at 4:39:57 AM
+392 http request GET https://registry.npmjs.org/crypto
+393 verbose request uri https://registry.npmjs.org/email-validator
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 4:39:57 AM
+396 http request GET https://registry.npmjs.org/email-validator
+397 verbose request uri https://registry.npmjs.org/express
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 4:39:57 AM
+400 http request GET https://registry.npmjs.org/express
+401 verbose request uri https://registry.npmjs.org/fetch
+402 verbose request no auth needed
+403 info attempt registry request try #1 at 4:39:57 AM
+404 http request GET https://registry.npmjs.org/fetch
+405 verbose request uri https://registry.npmjs.org/file-type
+406 verbose request no auth needed
+407 info attempt registry request try #1 at 4:39:57 AM
+408 http request GET https://registry.npmjs.org/file-type
+409 verbose request uri https://registry.npmjs.org/fluent-ffmpeg
+410 verbose request no auth needed
+411 info attempt registry request try #1 at 4:39:57 AM
+412 http request GET https://registry.npmjs.org/fluent-ffmpeg
+413 verbose request uri https://registry.npmjs.org/fs
+414 verbose request no auth needed
+415 info attempt registry request try #1 at 4:39:57 AM
+416 http request GET https://registry.npmjs.org/fs
+417 verbose request uri https://registry.npmjs.org/fs-extra
+418 verbose request no auth needed
+419 info attempt registry request try #1 at 4:39:57 AM
+420 http request GET https://registry.npmjs.org/fs-extra
+421 verbose request uri https://registry.npmjs.org/g-i-s
+422 verbose request no auth needed
+423 info attempt registry request try #1 at 4:39:57 AM
+424 http request GET https://registry.npmjs.org/g-i-s
+425 verbose request uri https://registry.npmjs.org/google-it
+426 verbose request no auth needed
+427 info attempt registry request try #1 at 4:39:57 AM
+428 http request GET https://registry.npmjs.org/google-it
+429 verbose request uri https://registry.npmjs.org/google-translate-api
+430 verbose request no auth needed
+431 info attempt registry request try #1 at 4:39:57 AM
+432 http request GET https://registry.npmjs.org/google-translate-api
+433 verbose request uri https://registry.npmjs.org/got
+434 verbose request no auth needed
+435 info attempt registry request try #1 at 4:39:57 AM
+436 http request GET https://registry.npmjs.org/got
+437 verbose request uri https://registry.npmjs.org/human-readable
+438 verbose request no auth needed
+439 info attempt registry request try #1 at 4:39:57 AM
+440 http request GET https://registry.npmjs.org/human-readable
+441 verbose request uri https://registry.npmjs.org/jimp
+442 verbose request no auth needed
+443 info attempt registry request try #1 at 4:39:57 AM
+444 http request GET https://registry.npmjs.org/jimp
+445 verbose request uri https://registry.npmjs.org/jsdom
+446 verbose request no auth needed
+447 info attempt registry request try #1 at 4:39:57 AM
+448 http request GET https://registry.npmjs.org/jsdom
+449 verbose request uri https://registry.npmjs.org/lowdb
+450 verbose request no auth needed
+451 info attempt registry request try #1 at 4:39:57 AM
+452 http request GET https://registry.npmjs.org/lowdb
+453 verbose request uri https://registry.npmjs.org/moment-timezone
+454 verbose request no auth needed
+455 info attempt registry request try #1 at 4:39:57 AM
+456 http request GET https://registry.npmjs.org/moment-timezone
+457 verbose request uri https://registry.npmjs.org/mongodb
+458 verbose request no auth needed
+459 info attempt registry request try #1 at 4:39:57 AM
+460 http request GET https://registry.npmjs.org/mongodb
+461 verbose request uri https://registry.npmjs.org/mongoose
+462 verbose request no auth needed
+463 info attempt registry request try #1 at 4:39:57 AM
+464 http request GET https://registry.npmjs.org/mongoose
+465 verbose request uri https://registry.npmjs.org/multistream
+466 verbose request no auth needed
+467 info attempt registry request try #1 at 4:39:57 AM
+468 http request GET https://registry.npmjs.org/multistream
+469 verbose request uri https://registry.npmjs.org/node-base64-image
+470 verbose request no auth needed
+471 info attempt registry request try #1 at 4:39:57 AM
+472 http request GET https://registry.npmjs.org/node-base64-image
+473 verbose request uri https://registry.npmjs.org/node-cron
+474 verbose request no auth needed
+475 info attempt registry request try #1 at 4:39:57 AM
+476 http request GET https://registry.npmjs.org/node-cron
+477 verbose request uri https://registry.npmjs.org/node-fetch
+478 verbose request no auth needed
+479 info attempt registry request try #1 at 4:39:57 AM
+480 http request GET https://registry.npmjs.org/node-fetch
+481 verbose request uri https://registry.npmjs.org/node-webpmux
+482 verbose request no auth needed
+483 info attempt registry request try #1 at 4:39:57 AM
+484 http request GET https://registry.npmjs.org/node-webpmux
+485 verbose request uri https://registry.npmjs.org/os
+486 verbose request no auth needed
+487 info attempt registry request try #1 at 4:39:57 AM
+488 http request GET https://registry.npmjs.org/os
+489 verbose request uri https://registry.npmjs.org/path
+490 verbose request no auth needed
+491 info attempt registry request try #1 at 4:39:57 AM
+492 http request GET https://registry.npmjs.org/path
+493 verbose request uri https://registry.npmjs.org/perf_hooks
+494 verbose request no auth needed
+495 info attempt registry request try #1 at 4:39:57 AM
+496 http request GET https://registry.npmjs.org/perf_hooks
+497 verbose request uri https://registry.npmjs.org/pino
+498 verbose request no auth needed
+499 info attempt registry request try #1 at 4:39:57 AM
+500 http request GET https://registry.npmjs.org/pino
+501 verbose request uri https://registry.npmjs.org/pixbr
+502 verbose request no auth needed
+503 info attempt registry request try #1 at 4:39:57 AM
+504 http request GET https://registry.npmjs.org/pixbr
+505 verbose request uri https://registry.npmjs.org/qrcode-pix
+506 verbose request no auth needed
+507 info attempt registry request try #1 at 4:39:57 AM
+508 http request GET https://registry.npmjs.org/qrcode-pix
+509 verbose request uri https://registry.npmjs.org/qrcode-terminal
+510 verbose request no auth needed
+511 info attempt registry request try #1 at 4:39:57 AM
+512 http request GET https://registry.npmjs.org/qrcode-terminal
+513 verbose request uri https://registry.npmjs.org/remove.bg
+514 verbose request no auth needed
+515 info attempt registry request try #1 at 4:39:57 AM
+516 http request GET https://registry.npmjs.org/remove.bg
+517 verbose request uri https://registry.npmjs.org/request
+518 verbose request no auth needed
+519 info attempt registry request try #1 at 4:39:57 AM
+520 http request GET https://registry.npmjs.org/request
+521 verbose request uri https://registry.npmjs.org/scrape-primbon
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 4:39:57 AM
+524 http request GET https://registry.npmjs.org/scrape-primbon
+525 verbose request uri https://registry.npmjs.org/spinnies
+526 verbose request no auth needed
+527 info attempt registry request try #1 at 4:39:57 AM
+528 http request GET https://registry.npmjs.org/spinnies
+529 verbose request uri https://registry.npmjs.org/translate
+530 verbose request no auth needed
+531 info attempt registry request try #1 at 4:39:57 AM
+532 http request GET https://registry.npmjs.org/translate
+533 verbose request uri https://registry.npmjs.org/translate-google
+534 verbose request no auth needed
+535 info attempt registry request try #1 at 4:39:57 AM
+536 http request GET https://registry.npmjs.org/translate-google
+537 verbose request uri https://registry.npmjs.org/uberduck-api
+538 verbose request no auth needed
+539 info attempt registry request try #1 at 4:39:57 AM
+540 http request GET https://registry.npmjs.org/uberduck-api
+541 verbose request uri https://registry.npmjs.org/util
+542 verbose request no auth needed
+543 info attempt registry request try #1 at 4:39:57 AM
+544 http request GET https://registry.npmjs.org/util
+545 verbose request uri https://registry.npmjs.org/uuid
+546 verbose request no auth needed
+547 info attempt registry request try #1 at 4:39:57 AM
+548 http request GET https://registry.npmjs.org/uuid
+549 verbose request uri https://registry.npmjs.org/yargs
+550 verbose request no auth needed
+551 info attempt registry request try #1 at 4:39:57 AM
+552 http request GET https://registry.npmjs.org/yargs
+553 verbose request uri https://registry.npmjs.org/yarn
+554 verbose request no auth needed
+555 info attempt registry request try #1 at 4:39:57 AM
+556 http request GET https://registry.npmjs.org/yarn
+557 verbose request uri https://registry.npmjs.org/yt-channel-info
+558 verbose request no auth needed
+559 info attempt registry request try #1 at 4:39:57 AM
+560 http request GET https://registry.npmjs.org/yt-channel-info
+561 verbose request uri https://registry.npmjs.org/yt-search
+562 verbose request no auth needed
+563 info attempt registry request try #1 at 4:39:57 AM
+564 http request GET https://registry.npmjs.org/yt-search
+565 verbose request uri https://registry.npmjs.org/ytdl-core
+566 verbose request no auth needed
+567 info attempt registry request try #1 at 4:39:57 AM
+568 http request GET https://registry.npmjs.org/ytdl-core
+569 silly cache add parsed spec Result {
+569 silly cache add   raw: 'qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz',
+569 silly cache add   scope: null,
+569 silly cache add   name: 'qrcode',
+569 silly cache add   rawSpec: 'https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz',
+569 silly cache add   spec: 'https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz',
+569 silly cache add   type: 'remote' }
+570 silly mapToRegistry name qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz
+571 silly mapToRegistry using default registry
+572 silly mapToRegistry registry https://registry.npmjs.org/
+573 silly mapToRegistry uri https://registry.npmjs.org/qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz
+574 verbose addRemoteTarball https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz not in flight; adding
+575 verbose addRemoteTarball [ 'https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz', null ]
+576 verbose request uri https://registry.npmjs.org/npm
+577 verbose request no auth needed
+578 info attempt registry request try #1 at 4:39:57 AM
+579 verbose etag W/"6ce9d6e6d4f2f57d21451f8671d6fd85"
+580 verbose lastModified Wed, 07 Dec 2022 23:13:12 GMT
+581 http request GET https://registry.npmjs.org/npm
+582 info retry fetch attempt 1 at 4:39:57 AM
+583 info attempt registry request try #1 at 4:39:57 AM
+584 http fetch GET https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz
+585 http 200 https://registry.npmjs.org/util
+586 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+586 verbose headers   'content-type': 'application/json',
+586 verbose headers   'transfer-encoding': 'chunked',
+586 verbose headers   connection: 'keep-alive',
+586 verbose headers   'cf-ray': '77acfa57eccea52c-GRU',
+586 verbose headers   'access-control-allow-origin': '*',
+586 verbose headers   age: '190',
+586 verbose headers   'cache-control': 'public, max-age=300',
+586 verbose headers   etag: 'W/"5a7f9574b954195357ecd505482793c7"',
+586 verbose headers   'last-modified': 'Sun, 16 Oct 2022 20:26:29 GMT',
+586 verbose headers   vary: 'accept-encoding, accept',
+586 verbose headers   'cf-cache-status': 'HIT',
+586 verbose headers   'x-amz-replication-status': 'COMPLETED',
+586 verbose headers   server: 'cloudflare',
+586 verbose headers   'content-encoding': 'gzip' }
+587 silly get cb [ 200,
+587 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+587 silly get     'content-type': 'application/json',
+587 silly get     'transfer-encoding': 'chunked',
+587 silly get     connection: 'keep-alive',
+587 silly get     'cf-ray': '77acfa57eccea52c-GRU',
+587 silly get     'access-control-allow-origin': '*',
+587 silly get     age: '190',
+587 silly get     'cache-control': 'public, max-age=300',
+587 silly get     etag: 'W/"5a7f9574b954195357ecd505482793c7"',
+587 silly get     'last-modified': 'Sun, 16 Oct 2022 20:26:29 GMT',
+587 silly get     vary: 'accept-encoding, accept',
+587 silly get     'cf-cache-status': 'HIT',
+587 silly get     'x-amz-replication-status': 'COMPLETED',
+587 silly get     server: 'cloudflare',
+587 silly get     'content-encoding': 'gzip' } ]
+588 verbose get saving util to /root/.npm/registry.npmjs.org/util/.cache.json
+589 http 200 https://registry.npmjs.org/moment-timezone
+590 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+590 verbose headers   'content-type': 'application/json',
+590 verbose headers   'transfer-encoding': 'chunked',
+590 verbose headers   connection: 'keep-alive',
+590 verbose headers   'cf-ray': '77acfa57de3000e7-GRU',
+590 verbose headers   'access-control-allow-origin': '*',
+590 verbose headers   age: '279',
+590 verbose headers   'cache-control': 'public, max-age=300',
+590 verbose headers   etag: 'W/"24dbdf1bd2565561fcac7372f5173e11"',
+590 verbose headers   'last-modified': 'Sun, 11 Dec 2022 10:17:47 GMT',
+590 verbose headers   vary: 'accept-encoding, accept',
+590 verbose headers   'cf-cache-status': 'HIT',
+590 verbose headers   'x-amz-replication-status': 'COMPLETED',
+590 verbose headers   server: 'cloudflare',
+590 verbose headers   'content-encoding': 'gzip' }
+591 silly get cb [ 200,
+591 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+591 silly get     'content-type': 'application/json',
+591 silly get     'transfer-encoding': 'chunked',
+591 silly get     connection: 'keep-alive',
+591 silly get     'cf-ray': '77acfa57de3000e7-GRU',
+591 silly get     'access-control-allow-origin': '*',
+591 silly get     age: '279',
+591 silly get     'cache-control': 'public, max-age=300',
+591 silly get     etag: 'W/"24dbdf1bd2565561fcac7372f5173e11"',
+591 silly get     'last-modified': 'Sun, 11 Dec 2022 10:17:47 GMT',
+591 silly get     vary: 'accept-encoding, accept',
+591 silly get     'cf-cache-status': 'HIT',
+591 silly get     'x-amz-replication-status': 'COMPLETED',
+591 silly get     server: 'cloudflare',
+591 silly get     'content-encoding': 'gzip' } ]
+592 verbose get saving moment-timezone to /root/.npm/registry.npmjs.org/moment-timezone/.cache.json
+593 http 200 https://registry.npmjs.org/cheerio
+594 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+594 verbose headers   'content-type': 'application/json',
+594 verbose headers   'transfer-encoding': 'chunked',
+594 verbose headers   connection: 'keep-alive',
+594 verbose headers   'cf-ray': '77acfa57d92b00f7-GRU',
+594 verbose headers   'access-control-allow-origin': '*',
+594 verbose headers   age: '153',
+594 verbose headers   'cache-control': 'public, max-age=300',
+594 verbose headers   etag: 'W/"c73aa2d338811adfbc8088df6d5494e9"',
+594 verbose headers   'last-modified': 'Fri, 18 Nov 2022 07:55:48 GMT',
+594 verbose headers   vary: 'accept-encoding, accept',
+594 verbose headers   'cf-cache-status': 'HIT',
+594 verbose headers   'x-amz-replication-status': 'COMPLETED',
+594 verbose headers   server: 'cloudflare',
+594 verbose headers   'content-encoding': 'gzip' }
+595 silly get cb [ 200,
+595 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+595 silly get     'content-type': 'application/json',
+595 silly get     'transfer-encoding': 'chunked',
+595 silly get     connection: 'keep-alive',
+595 silly get     'cf-ray': '77acfa57d92b00f7-GRU',
+595 silly get     'access-control-allow-origin': '*',
+595 silly get     age: '153',
+595 silly get     'cache-control': 'public, max-age=300',
+595 silly get     etag: 'W/"c73aa2d338811adfbc8088df6d5494e9"',
+595 silly get     'last-modified': 'Fri, 18 Nov 2022 07:55:48 GMT',
+595 silly get     vary: 'accept-encoding, accept',
+595 silly get     'cf-cache-status': 'HIT',
+595 silly get     'x-amz-replication-status': 'COMPLETED',
+595 silly get     server: 'cloudflare',
+595 silly get     'content-encoding': 'gzip' } ]
+596 verbose get saving cheerio to /root/.npm/registry.npmjs.org/cheerio/.cache.json
+597 http 200 https://registry.npmjs.org/lowdb
+598 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+598 verbose headers   'content-type': 'application/json',
+598 verbose headers   'transfer-encoding': 'chunked',
+598 verbose headers   connection: 'keep-alive',
+598 verbose headers   'cf-ray': '77acfa57dce6a4b0-GRU',
+598 verbose headers   'access-control-allow-origin': '*',
+598 verbose headers   age: '73',
+598 verbose headers   'cache-control': 'public, max-age=300',
+598 verbose headers   etag: 'W/"84ce89385f1707dd5e0f0b471bb0aaaf"',
+598 verbose headers   'last-modified': 'Thu, 08 Dec 2022 08:20:35 GMT',
+598 verbose headers   vary: 'accept-encoding, accept',
+598 verbose headers   'cf-cache-status': 'HIT',
+598 verbose headers   'x-amz-replication-status': 'COMPLETED',
+598 verbose headers   server: 'cloudflare',
+598 verbose headers   'content-encoding': 'gzip' }
+599 silly get cb [ 200,
+599 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+599 silly get     'content-type': 'application/json',
+599 silly get     'transfer-encoding': 'chunked',
+599 silly get     connection: 'keep-alive',
+599 silly get     'cf-ray': '77acfa57dce6a4b0-GRU',
+599 silly get     'access-control-allow-origin': '*',
+599 silly get     age: '73',
+599 silly get     'cache-control': 'public, max-age=300',
+599 silly get     etag: 'W/"84ce89385f1707dd5e0f0b471bb0aaaf"',
+599 silly get     'last-modified': 'Thu, 08 Dec 2022 08:20:35 GMT',
+599 silly get     vary: 'accept-encoding, accept',
+599 silly get     'cf-cache-status': 'HIT',
+599 silly get     'x-amz-replication-status': 'COMPLETED',
+599 silly get     server: 'cloudflare',
+599 silly get     'content-encoding': 'gzip' } ]
+600 verbose get saving lowdb to /root/.npm/registry.npmjs.org/lowdb/.cache.json
+601 http 200 https://registry.npmjs.org/chalk
+602 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+602 verbose headers   'content-type': 'application/json',
+602 verbose headers   'transfer-encoding': 'chunked',
+602 verbose headers   connection: 'keep-alive',
+602 verbose headers   'cf-ray': '77acfa5aef956b21-GRU',
+602 verbose headers   'access-control-allow-origin': '*',
+602 verbose headers   age: '91',
+602 verbose headers   'cache-control': 'public, max-age=300',
+602 verbose headers   etag: 'W/"08a273f8eadd11de77dfd8e91dc2402d"',
+602 verbose headers   'last-modified': 'Tue, 13 Dec 2022 02:40:02 GMT',
+602 verbose headers   vary: 'accept-encoding, accept',
+602 verbose headers   'cf-cache-status': 'HIT',
+602 verbose headers   'x-amz-replication-status': 'PENDING',
+602 verbose headers   server: 'cloudflare',
+602 verbose headers   'content-encoding': 'gzip' }
+603 silly get cb [ 200,
+603 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+603 silly get     'content-type': 'application/json',
+603 silly get     'transfer-encoding': 'chunked',
+603 silly get     connection: 'keep-alive',
+603 silly get     'cf-ray': '77acfa5aef956b21-GRU',
+603 silly get     'access-control-allow-origin': '*',
+603 silly get     age: '91',
+603 silly get     'cache-control': 'public, max-age=300',
+603 silly get     etag: 'W/"08a273f8eadd11de77dfd8e91dc2402d"',
+603 silly get     'last-modified': 'Tue, 13 Dec 2022 02:40:02 GMT',
+603 silly get     vary: 'accept-encoding, accept',
+603 silly get     'cf-cache-status': 'HIT',
+603 silly get     'x-amz-replication-status': 'PENDING',
+603 silly get     server: 'cloudflare',
+603 silly get     'content-encoding': 'gzip' } ]
+604 verbose get saving chalk to /root/.npm/registry.npmjs.org/chalk/.cache.json
+605 http fetch 200 https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz
+606 http 304 https://registry.npmjs.org/npm
+607 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+607 verbose headers   connection: 'keep-alive',
+607 verbose headers   'cf-ray': '77acfa5b2edda4d8-GRU',
+607 verbose headers   age: '15',
+607 verbose headers   'cache-control': 'public, max-age=300',
+607 verbose headers   etag: '"6ce9d6e6d4f2f57d21451f8671d6fd85"',
+607 verbose headers   'last-modified': 'Wed, 07 Dec 2022 23:13:12 GMT',
+607 verbose headers   vary: 'Accept-Encoding',
+607 verbose headers   'cf-cache-status': 'HIT',
+607 verbose headers   'x-amz-replication-status': 'COMPLETED',
+607 verbose headers   server: 'cloudflare' }
+608 silly get cb [ 304,
+608 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+608 silly get     connection: 'keep-alive',
+608 silly get     'cf-ray': '77acfa5b2edda4d8-GRU',
+608 silly get     age: '15',
+608 silly get     'cache-control': 'public, max-age=300',
+608 silly get     etag: '"6ce9d6e6d4f2f57d21451f8671d6fd85"',
+608 silly get     'last-modified': 'Wed, 07 Dec 2022 23:13:12 GMT',
+608 silly get     vary: 'Accept-Encoding',
+608 silly get     'cf-cache-status': 'HIT',
+608 silly get     'x-amz-replication-status': 'COMPLETED',
+608 silly get     server: 'cloudflare' } ]
+609 verbose etag https://registry.npmjs.org/npm from cache
+610 verbose get saving npm to /root/.npm/registry.npmjs.org/npm/.cache.json
+611 http 200 https://registry.npmjs.org/fs-extra
+612 verbose headers { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+612 verbose headers   'content-type': 'application/json',
+612 verbose headers   'transfer-encoding': 'chunked',
+612 verbose headers   connection: 'keep-alive',
+612 verbose headers   'cf-ray': '77acfa57eb3ca4cb-GRU',
+612 verbose headers   'access-control-allow-origin': '*',
+612 verbose headers   age: '34',
+612 verbose headers   'cache-control': 'public, max-age=300',
+612 verbose headers   etag: 'W/"b6dd1aa0bfff9b09ba403ba219ef045c"',
+612 verbose headers   'last-modified': 'Fri, 02 Dec 2022 02:10:07 GMT',
+612 verbose headers   vary: 'accept-encoding, accept',
+612 verbose headers   'cf-cache-status': 'HIT',
+612 verbose headers   'x-amz-replication-status': 'COMPLETED',
+612 verbose headers   server: 'cloudflare',
+612 verbose headers   'content-encoding': 'gzip' }
+613 silly get cb [ 200,
+613 silly get   { date: 'Sat, 17 Dec 2022 04:39:57 GMT',
+613 silly get     'content-type': 'application/json',
+613 silly get     'transfer-encoding': 'chunked',
+613 silly get     connection: 'keep-alive',
+613 silly get     'cf-ray': '77acfa57eb3ca4cb-GRU',
+613 silly get     'access-control-allow-origin': '*',
+613 silly get     age: '34',
+613 silly get     'cache-control': 'public, max-age=300',
+613 silly get     etag: 'W/"b6dd1aa0bfff9b09ba403ba219ef045c"',
+613 silly get     'last-modified': 'Fri, 02 Dec 2022 02:10:07 GMT',
+613 silly get     vary: 'accept-encoding, accept',
+613 silly get     'cf-cache-status': 'HIT',
+613 silly get     'x-amz-replication-status': 'COMPLETED',
+613 silly get     server: 'cloudflare',
+613 silly get     'content-encoding': 'gzip' } ]
+614 verbose get saving fs-extra to /root/.npm/registry.npmjs.org/fs-extra/.cache.json
+615 silly resolveWithNewModule util@0.12.5 checking installable status
+616 silly cache add args [ 'util@^0.12.4', null ]
+617 verbose cache add spec util@^0.12.4
+618 silly cache add parsed spec Result {
+618 silly cache add   raw: 'util@^0.12.4',
+618 silly cache add   scope: null,
+618 silly cache add   name: 'util',
+618 silly cache add   rawSpec: '^0.12.4',
+618 silly cache add   spec: '>=0.12.4 <0.13.0',
+618 silly cache add   type: 'range' }
+619 silly addNamed util@>=0.12.4 <0.13.0
+620 verbose addNamed ">=0.12.4 <0.13.0" is a valid semver range for util
+621 silly addNameRange { name: 'util', range: '>=0.12.4 <0.13.0', hasData: false }
+622 silly mapToRegistry name util
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npmjs.org/
+625 silly mapToRegistry uri https://registry.npmjs.org/util
+626 verbose addNameRange registry:https://registry.npmjs.org/util not in flight; fetching
+627 silly resolveWithNewModule moment-timezone@0.5.40 checking installable status
+628 silly cache add args [ 'moment-timezone@^0.5.34', null ]
+629 verbose cache add spec moment-timezone@^0.5.34
+630 silly cache add parsed spec Result {
+630 silly cache add   raw: 'moment-timezone@^0.5.34',
+630 silly cache add   scope: null,
+630 silly cache add   name: 'moment-timezone',
+630 silly cache add   rawSpec: '^0.5.34',
+630 silly cache add   spec: '>=0.5.34 <0.6.0',
+630 silly cache add   type: 'range' }
+631 silly addNamed moment-timezone@>=0.5.34 <0.6.0
+632 verbose addNamed ">=0.5.34 <0.6.0" is a valid semver range for moment-timezone
+633 silly addNameRange { name: 'moment-timezone',
+633 silly addNameRange   range: '>=0.5.34 <0.6.0',
+633 silly addNameRange   hasData: false }
+634 silly mapToRegistry name moment-timezone
+635 silly mapToRegistry using default registry
+636 silly mapToRegistry registry https://registry.npmjs.org/
+637 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+638 verbose addNameRange registry:https://registry.npmjs.org/moment-timezone not in flight; fetching
+639 http 200 https://registry.npmjs.org/path
+640 verbose headers { date: 'Sat, 17 Dec 2022 04:39:58 GMT',
+640 verbose headers   'content-type': 'application/json',
+640 verbose headers   'transfer-encoding': 'chunked',
+640 verbose headers   connection: 'keep-alive',
+640 verbose headers   'cf-ray': '77acfa57d9454d48-GRU',
+640 verbose headers   'access-control-allow-origin': '*',
+640 verbose headers   'cache-control': 'public, max-age=300',
+640 verbose headers   etag: 'W/"c37bd25a6b5a9b6474d5e9e8ea5b9201"',
+640 verbose headers   'last-modified': 'Sun, 25 Sep 2022 22:10:22 GMT',
+640 verbose headers   vary: 'accept-encoding, accept',
+640 verbose headers   'cf-cache-status': 'REVALIDATED',
+640 verbose headers   'x-amz-replication-status': 'COMPLETED',
+640 verbose headers   server: 'cloudflare',
+640 verbose headers   'content-encoding': 'gzip' }
+641 silly get cb [ 200,
+641 silly get   { date: 'Sat, 17 Dec 2022 04:39:58 GMT',
+641 silly get     'content-type': 'application/json',
+641 silly get     'transfer-encoding': 'chunked',
+641 silly get     connection: 'keep-alive',
+641 silly get     'cf-ray': '77acfa57d9454d48-GRU',
+641 silly get     'access-control-allow-origin': '*',
+641 silly get     'cache-control': 'public, max-age=300',
+641 silly get     etag: 'W/"c37bd25a6b5a9b6474d5e9e8ea5b9201"',
+641 silly get     'last-modified': 'Sun, 25 Sep 2022 22:10:22 GMT',
+641 silly get     vary: 'accept-encoding, accept',
+641 silly get     'cf-cache-status': 'REVALIDATED',
+641 silly get     'x-amz-replication-status': 'COMPLETED',
+641 silly get     server: 'cloudflare',
+641 silly get     'content-encoding': 'gzip' } ]
+642 verbose get saving path to /root/.npm/registry.npmjs.org/path/.cache.json
+643 http 200 https://registry.npmjs.org/child_process
+644 verbose headers { date: 'Sat, 17 Dec 2022 04:39:58 GMT',
+644 verbose headers   'content-type': 'application/json',
+644 verbose headers   'transfer-encoding': 'chunked',
+644 verbose headers   connection: 'keep-alive',
+644 verbose headers   'cf-ray': '77acfa57dd00a4e9-GRU',
+644 verbose headers   'access-control-allow-origin': '*',
+644 verbose headers   'cache-control': 'public, max-age=300',
+644 verbose headers   etag: 'W/"7b26b51d0e0dc6a447bd495f89e9e366"',
+644 verbose headers   'last-modified': 'Mon, 13 Jun 2022 05:57:49 GMT',
+644 verbose headers   vary: 'accept-encoding, accept',
+644 verbose headers   'cf-cache-status': 'REVALIDATED',
+644 verbose headers   'x-amz-replication-status': 'COMPLETED',
+644 verbose headers   server: 'cloudflare',
+644 verbose headers   'content-encoding': 'gzip' }
+645 silly get cb [ 200,
+645 silly get   { date: 'Sat, 17 Dec 2022 04:39:58 GMT',
+645 silly get     'content-type': 'application/json',
+645 silly get     'transfer-encoding': 'chunked',
+645 silly get     connection: 'keep-alive',
+645 silly get     'cf-ray': '77acfa57dd00a4e9-GRU',
+645 silly get     'access-control-allow-origin': '*',
+645 silly get     'cache-control': 'public, max-age=300',
+645 silly get     etag: 'W/"7b26b51d0e0dc6a447bd495f89e9e366"',
+645 silly get     'last-modified': 'Mon, 13 Jun 2022 05:57:49 GMT',
+645 silly get     vary: 'accept-encoding, accept',
+645 silly get     'cf-cache-status': 'REVALIDATED',
+645 silly get     'x-amz-replication-status': 'COMPLETED',
+645 silly get     server: 'cloudflare',
+645 silly get     'content-encoding': 'gzip' } ]
+646 verbose get saving child_process to /root/.npm/registry.npmjs.org/child_process/.cache.json
+647 verbose get https://registry.npmjs.org/util not expired, no request
+648 silly addNameRange number 2 { name: 'util', range: '>=0.12.4 <0.13.0', hasData: true }
+649 silly addNameRange versions [ 'util',
+649 silly addNameRange   [ '0.4.9',
+649 silly addNameRange     '0.10.0',
+649 silly addNameRange     '0.10.1',
+649 silly addNameRange     '0.10.2',
+649 silly addNameRange     '0.10.3',
+649 silly addNameRange     '0.10.4',
+649 silly addNameRange     '0.11.0',
+649 silly addNameRange     '0.11.1',
+649 silly addNameRange     '0.12.0',
+649 silly addNameRange     '0.12.1',
+649 silly addNameRange     '0.12.2',
+649 silly addNameRange     '0.12.3',
+649 silly addNameRange     '0.12.4',
+649 silly addNameRange     '0.12.5' ] ]
+650 silly addNamed util@0.12.5
+651 verbose addNamed "0.12.5" is a plain semver version for util
+652 silly resolveWithNewModule cheerio@1.0.0-rc.12 checking installable status
+653 silly cache add args [ 'cheerio@^1.0.0-rc.10', null ]
+654 verbose cache add spec cheerio@^1.0.0-rc.10
+655 silly cache add parsed spec Result {
+655 silly cache add   raw: 'cheerio@^1.0.0-rc.10',
+655 silly cache add   scope: null,
+655 silly cache add   name: 'cheerio',
+655 silly cache add   rawSpec: '^1.0.0-rc.10',
+655 silly cache add   spec: '>=1.0.0-rc.10 <2.0.0',
+655 silly cache add   type: 'range' }
+656 silly addNamed cheerio@>=1.0.0-rc.10 <2.0.0
+657 verbose addNamed ">=1.0.0-rc.10 <2.0.0" is a valid semver range for cheerio
+658 silly addNameRange { name: 'cheerio',
+658 silly addNameRange   range: '>=1.0.0-rc.10 <2.0.0',
+658 silly addNameRange   hasData: false }
+659 silly mapToRegistry name cheerio
+660 silly mapToRegistry using default registry
+661 silly mapToRegistry registry https://registry.npmjs.org/
+662 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+663 verbose addNameRange registry:https://registry.npmjs.org/cheerio not in flight; fetching
+664 verbose stack Error: Missing required argument #1
+664 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+664 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+664 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+664 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+664 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+664 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+664 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+664 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+664 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+664 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+665 verbose cwd /root/busca
+666 error Linux 5.4.0-1098-azure
+667 error argv "/usr/bin/node" "/usr/bin/npm" "i"
+668 error node v8.10.0
+669 error npm  v3.5.2
+670 error code EMISSINGARG
+671 error typeerror Error: Missing required argument #1
+671 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+671 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+671 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+671 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+671 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+671 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+671 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+671 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+671 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+671 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+672 error typeerror This is an error with npm itself. Please report this error at:
+672 error typeerror     <http://github.com/npm/npm/issues>
+673 verbose exit [ 1, true ]
